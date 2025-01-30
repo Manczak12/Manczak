@@ -1,0 +1,35 @@
+body {
+    font-family: Arial,;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
