@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Kalkulator podatku</h1>
+    <p>wprowadz kwote obliczy netto i brutto</p>
+
+    <form id="sigma">
+        <label for="kwota">Kwota</label>
+        <input type="number" id="kwota" placeholder="Wprowadz kwote"required>
+
+        <label for="stawka-podatku">Stawka podatku w procentach:</label>
+        <input type="number" id="stawka-podatku" placeholder="Procent podatku"required>
+        <button type="button">Oblicz</button>
+    </form>
+
+    <h2>Cena</h2>
+    <p>Cena netto<span id="netto">0</span>PLN</p>
+    <p>Cena brutto<span id="brutto">0</span>PLN</p>
+</body>
+</html>
